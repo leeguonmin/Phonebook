@@ -12,13 +12,29 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HSGyeoulNoonkott20';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HSGyeoulNoonkott20.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ansungtangmyun-ESG';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-ESG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 /* 전체 페이지 스타일 */
 body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
-    font-family: 'ulsanjunggu';
+    font-family: 'HSGyeoulNoonkott20';
     font-size:22px;
 }
 
@@ -102,6 +118,7 @@ table {
     margin: 20px 0;
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    
 }
 
 th, td {
@@ -166,3 +183,5 @@ table a:hover {
     background-color: #27ae60;
     text-decoration: none;
 }
+
+
