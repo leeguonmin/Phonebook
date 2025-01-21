@@ -12,9 +12,9 @@ public class PhonebookController {
 	
 	/* @RequestMapping(value="/", method=RequestMethod.GET) */
 	@GetMapping("/")
-	@ResponseBody
+	/* @ResponseBody */
 	public String list() {
-		return "<h1>Phonebook List</h1>";
+		return "/WEB_INF/views/phonebook/list.jsp";
 	}
 
 	
