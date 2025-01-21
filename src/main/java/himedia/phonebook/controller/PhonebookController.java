@@ -17,5 +17,4 @@ public class PhonebookController {
 		return "/WEB_INF/views/phonebook/list.jsp";
 	}
 
-	
 }
