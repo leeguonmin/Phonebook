@@ -14,6 +14,7 @@ public class PhonebookController {
 	@GetMapping("/")
 	/* @ResponseBody */
 	public String list() {
+		logger.debug("PHONEBOOK LIST:");
 		/* return "/WEB-INF/views/phonebook/list.jsp"; */
 		return "phonebook/list";
 	}
