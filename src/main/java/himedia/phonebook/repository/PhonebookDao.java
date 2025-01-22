@@ -5,7 +5,7 @@ import java.util.List;
 import himedia.phonebook.repository.vo.PhonebookVo;
 
 public interface PhonebookDao {
-	public int inert(PhonebookVo phonebookVo);
+	public int insert(PhonebookVo phonebookVo);
 	public int update(PhonebookVo phonebookVo);
 	public int delete(Integer id);
 	public PhonebookVo selectOne(Integer id);

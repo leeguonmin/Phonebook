@@ -13,7 +13,6 @@
 	<insert id="insert" parameterType="phonebookVo">
 	INSERT INTO phonebook (name, hp, tel)
 	VALUES(#{name}, #{hp}, #{tel})
-	
 	</insert>
 	
 	<update id="update" parameterType="phonebookVo">
@@ -21,6 +20,10 @@
 	name=#{name}, hp=#{hp}, tel=#{tel}
 	WHERE id=#{id}
 	</update>
+	
+	<delete id="delete" parameterType="int">
+	DELETE FROM phonebook WHERE id=#{id}
+	</delete>
 	
 	
 </mapper>
