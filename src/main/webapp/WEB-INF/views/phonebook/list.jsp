@@ -11,7 +11,7 @@
 
 <body>
 
-	<h1>전화번호부</h1>
+	<h1>전화번호부&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✾❀✾</h1>
 
 	<h2>리스트</h2>
 

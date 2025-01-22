@@ -15,7 +15,6 @@ import himedia.phonebook.repository.vo.PhonebookVo;
 public interface PhonebookMapper {
 // <select id="selectAll" resultType="phonebookVo">
 	List<PhonebookVo> selectAll();
-	
 }
 
 
